@@ -17932,7 +17932,9 @@ right skewed <br>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>من المخطط السابق يمكن الاستفادة ان التنبؤ بنتيحة المباراة يجب أن يكون مجموع الاهداف 3 او 2 فهو ذو احتمالية اكبر</p>
+<p>من المخطط السابق يمكن الاستفادة ان التنبؤ بنتيحة المباراة يجب أن يكون مجموع الاهداف 3 او 2 فهو ذو احتمالية اكبر<br>
+<br>كما أنه لدينا <br>
+right skewed</p>
 
 </div>
 </div>
@@ -18023,7 +18025,7 @@ right skewed <br>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>نلاحظ أن نسبة كبيرة من الأهداف يتم تسجيلها في أواخر المباراة، إذ عندها يكون أحد الفريقين قد بلغ حده من التعب</p>
-<p>وبشكل غريب فإن بطولتي 2004 و 2006 كانت معظم الأهداف فيها في أول المباراة أو أول شوط</p>
+<p>وبشكل غريب فإن بطولة  2006 كانت معظم الأهداف فيها في أول المباراة أو أول شوط</p>
 
 </div>
 </div>
@@ -18683,7 +18685,9 @@ right skewed <br>
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">px</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">ten_most_played</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">fig</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">ten_most_played</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="o">**</span><span class="n">layout_options</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
      </div>
